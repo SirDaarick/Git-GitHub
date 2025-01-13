@@ -34,3 +34,7 @@ git diff - para ver todo lo que ha cambiado desde el ultimo commit
 git checkout "hash" - utilizando el hash de los commit podemos volver a estados anteriores
 
 git reset --hard hash - sirve para volver a un estado anterior borrando todo lo de adelante, pero sirve tambien para recuperar cosas
+
+git reflog - ver todos los cambios hechos al repositorio
+git tag nombre - agrega una etiqueta al commit 
+git tag - se ven todos los tags del repositorio
