@@ -42,3 +42,7 @@ git checkout tags/nombre - se usa para moverse entre commits pero usando el nomb
 git branch nombre - se crea una rama distinta de la main 
 git switch rama - cambiar entre ramas
 git merge RamaACombinar - desde la rama que se quiere agregar los cambios para combinar
+git stash - hace un guardado temporal sin necesidad de hacer un commit
+git stash list - ve todos los guardados temporales
+git stash pop - recupera el estado de los guardados temporales
+git stash drop - borra todos los guardados temporales
