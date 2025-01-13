@@ -41,3 +41,4 @@ git tag - se ven todos los tags del repositorio
 git checkout tags/nombre - se usa para moverse entre commits pero usando el nombre de la etiqueta en lugar del hash del commit
 git branch nombre - se crea una rama distinta de la main 
 git switch rama - cambiar entre ramas
+git merge RamaACombinar - desde la rama que se quiere agregar los cambios para combinar
