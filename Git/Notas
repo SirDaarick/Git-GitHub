@@ -1,0 +1,36 @@
+Control de versiones distribuido, es decir esta alojado en distintos dispositivos a la vez
+ls - muestra el directorio completo
+cd - avanzar en una carpeta
+cd.. - retroceder una carpeta
+pwd - muestra la ruta de la carpeta actual
+mkdir - crea una carpeta
+
+git config --global user.name "Daarick" -- configuracion global para el nombre
+git config --global user.email "e.danielgrz10@gmail.com" -- Configuracion global para el email
+
+touch nombrearchivo.extension - crear un fichero 
+
+git init -- crea el repositorio de git a partir del directorio 
+git branch -m main - renombra la rama "master" a main, que es lo mas comun 
+git status - muestra el estado actual del repositorio
+untracked - archivos presentes en la carpeta que no estan agregados
+
+git add - comenzar a agregar los archivos y trackearlos
+git add. - agregar todos los archivos pendientes
+
+git commit -m "Mensaje" se suben los archivos al repositorio 
+
+cada que se tome una fotografia al proyecto, se le asigna un hash 
+
+git log - ver historial de commits
+
+git reset - es como un control z
+git checkout "archivo" - deshace los cambios realizados en un archivo antes de un add
+git config --global alias.nombre "comando" -- se crea un alias para algun comando muy comun
+.gitignore - se usa para crear un archivo de texto en el cual incluiremos el nombre de los archivos que se quieren ignorar 
+
+git diff - para ver todo lo que ha cambiado desde el ultimo commit
+
+git checkout "hash" - utilizando el hash de los commit podemos volver a estados anteriores
+
+git reset --hard hash - sirve para volver a un estado anterior borrando todo lo de adelante, pero sirve tambien para recuperar cosas
