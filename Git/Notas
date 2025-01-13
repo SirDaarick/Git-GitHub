@@ -40,9 +40,13 @@ git tag nombre - agrega una etiqueta al commit
 git tag - se ven todos los tags del repositorio
 git checkout tags/nombre - se usa para moverse entre commits pero usando el nombre de la etiqueta en lugar del hash del commit
 git branch nombre - se crea una rama distinta de la main 
+git branch -d nombre - elimina una rama
 git switch rama - cambiar entre ramas
 git merge RamaACombinar - desde la rama que se quiere agregar los cambios para combinar
 git stash - hace un guardado temporal sin necesidad de hacer un commit
 git stash list - ve todos los guardados temporales
 git stash pop - recupera el estado de los guardados temporales
 git stash drop - borra todos los guardados temporales
+git diff rama - se puede hacer diff entre ramas
+
+en general las ramas son siempre proyectos temporales, que estan destinados a ser mergeados a la rama main y eliminados 
