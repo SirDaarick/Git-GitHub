@@ -52,3 +52,6 @@ git diff rama - se puede hacer diff entre ramas
 en general las ramas son siempre proyectos temporales, que estan destinados a ser mergeados a la rama main y eliminados 
 
 para crear la conexion entre git y github es necesario seguir los pasos de la guia de ssh y al crear un repo hay un espacio abajo que da pasos para subir el repositorio de git
+
+git fetch - descarga todos los archivos del repo de github pero no los aplica
+git pull - se configura como un merge, donde descarga todos los cambios de Github y los aplica al local 
