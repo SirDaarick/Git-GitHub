@@ -50,3 +50,5 @@ git stash drop - borra todos los guardados temporales
 git diff rama - se puede hacer diff entre ramas
 
 en general las ramas son siempre proyectos temporales, que estan destinados a ser mergeados a la rama main y eliminados 
+
+para crear la conexion entre git y github es necesario seguir los pasos de la guia de ssh y al crear un repo hay un espacio abajo que da pasos para subir el repositorio de git
